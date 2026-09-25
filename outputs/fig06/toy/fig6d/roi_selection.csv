@@ -1,0 +1,13 @@
+roi,model,r_obs,p_value,p_perm_one_tailed,p_fwer_model_wise,tail,n_subjects,n_pairs,n_perm,seed,n_jobs,correction_mode,normalize_models,isc_prefix,assoc_method,fisher_z,delta_name,reappraisal_name,passive_name,p_fdr_bh_model_wise,p_fdr_bh_global,source_name
+L_1,M_conv,0.2533078193664551,0.01,0.01,0.01,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,0.01,0.03,7Networks_LH_Vis_1
+R_101,M_conv,0.24266982078552246,0.01,0.01,0.01,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,0.01,0.03,7Networks_RH_Vis_1
+V_1,M_conv,0.24333977699279785,0.01,0.01,0.01,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,0.01,0.03,Tian_1
+V_2,M_conv,0.24818021059036255,0.01,0.01,0.01,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,0.01,0.03,Tian_2
+L_1,M_div,-0.24837110936641693,1.0,1.0,1.0,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,1.0,1.0,7Networks_LH_Vis_1
+R_101,M_div,-0.23875080049037933,1.0,1.0,1.0,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,1.0,1.0,7Networks_RH_Vis_1
+V_1,M_div,-0.24459990859031677,1.0,1.0,1.0,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,1.0,1.0,Tian_1
+V_2,M_div,-0.24655623733997345,1.0,1.0,1.0,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,1.0,1.0,Tian_2
+L_1,M_nn,0.09445928037166595,0.05,0.05,0.06,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,0.08,0.12,7Networks_LH_Vis_1
+R_101,M_nn,0.08886218070983887,0.07,0.07,0.08,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,0.08,0.12,7Networks_RH_Vis_1
+V_1,M_nn,0.08378893882036209,0.08,0.08,0.09,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,0.08,0.12,Tian_1
+V_2,M_nn,0.09096547961235046,0.06,0.06,0.08,positive,28,378,99,42,1,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,Reappraisal_minus_Passive_Emo,Reappraisal,Passive_Emo,0.08,0.12,Tian_2

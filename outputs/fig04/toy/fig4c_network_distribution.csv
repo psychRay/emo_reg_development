@@ -1,0 +1,5 @@
+system,network_id,network_name,voxel_count,fraction
+reappraisal_only,1,visual,49,1.0
+common_appraisal,2,som/motor,123,1.0
+nonmodifiable_emotion,4,vAttn,29,1.0
+modifiable_emotion,3,dAttn,123,1.0

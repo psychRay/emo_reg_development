@@ -1,0 +1,5 @@
+roi,display_label,model_code,model_label,mapped
+L_1,LH_Vis_1,3,M_nn + M_conv,True
+R_101,RH_Vis_1,3,M_nn + M_conv,True
+V_1,L_HIP-head,3,M_nn + M_conv,True
+V_2,L_HIP-body,3,M_nn + M_conv,True

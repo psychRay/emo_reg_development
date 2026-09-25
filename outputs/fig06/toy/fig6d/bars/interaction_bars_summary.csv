@@ -1,0 +1,5 @@
+roi,display_label,plot_status,output_svg,p_brain_x_M_nn,p_brain_x_M_conv,p_brain_x_M_div
+L_1,LH_Vis_1,plotted,brain_age_interaction_grouped_bars.svg,1.0,0.01,0.01
+R_101,RH_Vis_1,plotted,brain_age_interaction_grouped_bars.svg,1.0,0.01,0.01
+V_1,Tian_1,plotted,brain_age_interaction_grouped_bars.svg,1.0,0.01,0.01
+V_2,Tian_2,plotted,brain_age_interaction_grouped_bars.svg,1.0,0.01,0.01

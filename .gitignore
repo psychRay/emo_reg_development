@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.Rhistory
+.venv/
+resources/neuromaps_cache/
+manuscript/
+gam_med_task_tendency/
+src/prj_analysis/temp-plot.html
+src/prj_analysis/src/mylib/brain/age_distribution_by_site*.pdf
+src/prj_analysis/src/mylib/brain/age_distribution_by_site*.svg

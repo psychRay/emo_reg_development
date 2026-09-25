@@ -1,0 +1,9 @@
+roi,model,r_obs,p_perm_one_tailed,p_fwer_model_wise,n_subjects,n_pairs,n_perm,seed,correction_mode,normalize_models,isc_prefix,assoc_method,fisher_z,p_fdr_bh_model_wise,p_fdr_bh_global,condition,value,p_value,is_sig,display_label
+L_1,M_conv,0.8487114310264587,0.01,0.01,28,378,99,42,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,0.01,0.015,Passive_Emo,0.8487114310264587,0.01,True,LH_Vis_1
+R_101,M_conv,0.8449009656906128,0.01,0.01,28,378,99,42,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,0.01,0.015,Passive_Emo,0.8449009656906128,0.01,True,RH_Vis_1
+V_1,M_conv,0.8379527926445007,0.01,0.01,28,378,99,42,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,0.01,0.015,Passive_Emo,0.8379527926445007,0.01,True,L_HIP-head
+V_2,M_conv,0.8519526720046997,0.01,0.01,28,378,99,42,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,0.01,0.015,Passive_Emo,0.8519526720046997,0.01,True,L_HIP-body
+L_1,M_nn,0.8451331257820129,0.01,0.01,28,378,99,42,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,0.01,0.015,Passive_Emo,0.8451331257820129,0.01,True,LH_Vis_1
+R_101,M_nn,0.8421316146850586,0.01,0.01,28,378,99,42,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,0.01,0.015,Passive_Emo,0.8421316146850586,0.01,True,RH_Vis_1
+V_1,M_nn,0.8450367450714111,0.01,0.01,28,378,99,42,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,0.01,0.015,Passive_Emo,0.8450367450714111,0.01,True,L_HIP-head
+V_2,M_nn,0.8278738260269165,0.01,0.01,28,378,99,42,perm_fwer_fdr,True,roi_isc_mahalanobis_by_age,spearman,False,0.01,0.015,Passive_Emo,0.8278738260269165,0.01,True,L_HIP-body

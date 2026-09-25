@@ -1,0 +1,105 @@
+{
+    "success_ER": {
+        "male": [
+            {
+                "posterior_median_age": 11.013694625680003,
+                "ci_low": 10.094900862130407,
+                "ci_high": 11.927068559559176,
+                "sign_change_posterior_probability": 0.27062374245472837,
+                "n_matched_points": 244,
+                "type": "pooled",
+                "final_tp_age": 10.9990990990991
+            },
+            {
+                "posterior_median_age": 15.480967229888769,
+                "ci_low": 14.568782997579454,
+                "ci_high": 16.394458517988536,
+                "sign_change_posterior_probability": 0.4305835010060362,
+                "n_matched_points": 441,
+                "type": "pooled",
+                "final_tp_age": 15.476176176176178
+            }
+        ],
+        "female": [
+            {
+                "posterior_median_age": 9.942448873201435,
+                "ci_low": 9.341798279741859,
+                "ci_high": 10.89795008767983,
+                "sign_change_posterior_probability": 0.30892678034102306,
+                "n_matched_points": 218,
+                "type": "pooled",
+                "final_tp_age": 9.981581581581583
+            },
+            {
+                "posterior_median_age": 16.36532663316583,
+                "ci_low": 15.493759556430703,
+                "ci_high": 17.279396984924624,
+                "sign_change_posterior_probability": 0.4939759036144578,
+                "n_matched_points": 511,
+                "type": "pooled",
+                "final_tp_age": 16.3972972972973
+            }
+        ]
+    },
+    "efforts_ER": {
+        "male": [
+            {
+                "posterior_median_age": 14.56746532738659,
+                "ci_low": 13.623115577889447,
+                "ci_high": 15.479882242221832,
+                "sign_change_posterior_probability": 0.3316582914572864,
+                "n_matched_points": 566,
+                "type": "pooled",
+                "final_tp_age": 14.555055055055057
+            }
+        ],
+        "female": [
+            {
+                "posterior_median_age": 14.798873079609358,
+                "ci_low": 13.83819095477387,
+                "ci_high": 15.754003881058878,
+                "sign_change_posterior_probability": 0.12072434607645875,
+                "n_matched_points": 220,
+                "type": "pooled",
+                "final_tp_age": 14.822822822822824
+            }
+        ]
+    },
+    "ERQ-CR": {
+        "male": [
+            {
+                "posterior_median_age": 12.326726880965456,
+                "ci_low": 11.552310905117439,
+                "ci_high": 13.222543889994336,
+                "sign_change_posterior_probability": 0.4743718592964824,
+                "n_matched_points": 332,
+                "type": "pooled",
+                "final_tp_age": 12.316516516516518
+            },
+            {
+                "posterior_median_age": 15.770902119887138,
+                "ci_low": 14.898653223621398,
+                "ci_high": 16.509729424838074,
+                "sign_change_posterior_probability": 0.45883534136546184,
+                "n_matched_points": 332,
+                "type": "pooled",
+                "final_tp_age": 15.765365365365366
+            }
+        ],
+        "female": [
+            {
+                "posterior_median_age": 13.408040201005026,
+                "ci_low": 12.440201005025127,
+                "ci_high": 14.296478337602109,
+                "sign_change_posterior_probability": 0.2606060606060606,
+                "n_matched_points": 452,
+                "type": "pooled",
+                "final_tp_age": 13.366166166166167
+            }
+        ]
+    },
+    "CR_tendency": {
+        "male": [],
+        "female": []
+    }
+}

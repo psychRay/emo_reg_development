@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mylib"
+version = "0.1.0"
+
+[tool.setuptools]
+# Map the package root to "src"
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+# Search packages only under "src"
+where = ["src"]

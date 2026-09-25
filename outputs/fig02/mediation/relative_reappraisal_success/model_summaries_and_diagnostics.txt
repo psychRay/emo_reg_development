@@ -1,0 +1,163 @@
+GAM mediation model report
+==========================
+
+N = 1199
+Age range = 8.3 to 19
+
+Mediator model formula:
+M ~ s(age, k = 7, bs = "cr") + gender
+<environment: 0x5cefa7dc64f8>
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+M ~ s(age, k = 7, bs = "cr") + gender
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 0.407960   0.020081  20.316   <2e-16 ***
+gender1     0.002563   0.028991   0.088     0.93    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+         edf Ref.df     F p-value   
+s(age) 2.679      6 1.952 0.00241 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.00886   Deviance explained = 1.19%
+-REML = 880.14  Scale est. = 0.25093   n = 1199
+
+Approximate k-check / diagnostics:
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-2.404216e-06,-2.319938e-09]
+(score 880.1404 & scale 0.2509252).
+Hessian positive definite, eigenvalue range [0.04584055,598.5023].
+Model rank =  8 / 8 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+         k'  edf k-index p-value
+s(age) 6.00 2.68    0.98    0.23
+NULL
+
+
+Outcome model: no_age_moderation
+Formula:
+outcome ~ s(age, k = 7, bs = "cr") + M + gender
+<environment: 0x5cefa7dc64f8>
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+outcome ~ s(age, k = 7, bs = "cr") + M + gender
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  4.83952    0.05591  86.560  < 2e-16 ***
+M            0.23071    0.06924   3.332 0.000889 ***
+gender1     -0.04716    0.06958  -0.678 0.497998    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+          edf Ref.df     F p-value   
+s(age) 0.8854      6 1.155 0.00497 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.0126   Deviance explained =  1.5%
+-REML = 1928.4  Scale est. = 1.4472    n = 1199
+
+Approximate k-check / diagnostics:
+
+Method: REML   Optimizer: outer newton
+full convergence after 11 iterations.
+Gradient range [-0.0005988827,0.003499363]
+(score 1928.398 & scale 1.447237).
+Hessian positive definite, eigenvalue range [0.0006400824,597.9968].
+Model rank =  9 / 9 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+          k'   edf k-index p-value
+s(age) 6.000 0.885       1    0.48
+NULL
+
+
+Outcome model: age_moderation
+Formula:
+outcome ~ s(age, k = 7, bs = "cr") + M + s(age, by = M, k = 7, 
+    bs = "cr") + gender
+<environment: 0x5cefa7dc64f8>
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+outcome ~ s(age, k = 7, bs = "cr") + M + s(age, by = M, k = 7, 
+    bs = "cr") + gender
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  4.83951    0.05591  86.559  < 2e-16 ***
+M            0.23072    0.06925   3.332  0.00089 ***
+gender1     -0.04716    0.06958  -0.678  0.49800    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+               edf Ref.df     F p-value   
+s(age)   0.8778610      6 1.154 0.00497 **
+s(age):M 0.0008823      6 0.000 0.86391   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.0126   Deviance explained =  1.5%
+-REML = 1928.4  Scale est. = 1.4472    n = 1199
+
+Approximate k-check / diagnostics:
+
+Method: REML   Optimizer: outer newton
+full convergence after 10 iterations.
+Gradient range [-0.0002398856,0.001693684]
+(score 1928.398 & scale 1.447245).
+Hessian positive definite, eigenvalue range [0.0001094655,597.9986].
+Model rank =  16 / 16 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+               k'      edf k-index p-value
+s(age)   6.000000 0.877861       1    0.39
+s(age):M 7.000000 0.000882       1    0.53
+NULL
+
+
+Outcome model comparison
+------------------------
+                                     df      AIC
+fits$outcome$no_age_moderation 5.007166 3851.955
+fits$outcome$age_moderation    4.993999 3851.942
+
+Approximate nested-model comparison, if valid for fitted models:
+Analysis of Deviance Table
+
+Model 1: outcome ~ s(age, k = 7, bs = "cr") + M + gender
+Model 2: outcome ~ s(age, k = 7, bs = "cr") + M + s(age, by = M, k = 7, 
+    bs = "cr") + gender
+  Resid. Df Resid. Dev       Df  Deviance      F  Pr(>F)  
+1    1194.9     1729.6                                    
+2    1194.9     1729.6 -0.01971 -0.019037 0.6674 0.04302 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

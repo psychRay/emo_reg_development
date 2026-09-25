@@ -1,0 +1,4 @@
+model,r_obs,p_perm,p_fwer_global,p_fdr_bh_global,n_subjects,n_pairs,n_perm,seed,n_jobs,n_bootstrap,bootstrap_seed,tail,correction_mode,behavior_isc_prefix,behavior_isc_method,fisher_z_behavior,assoc_method,normalize_models
+M_conv,0.7116658687591553,0.01,0.01,0.015,28,378,99,42,1,100,202405,positive,perm_fwer_fdr,behavior_pattern_isc_mahalanobis_by_age,mahalanobis,False,spearman,True
+M_div,-0.42684534192085266,1.0,1.0,1.0,28,378,99,42,1,100,202405,positive,perm_fwer_fdr,behavior_pattern_isc_mahalanobis_by_age,mahalanobis,False,spearman,True
+M_nn,0.6914379596710205,0.01,0.01,0.015,28,378,99,42,1,100,202405,positive,perm_fwer_fdr,behavior_pattern_isc_mahalanobis_by_age,mahalanobis,False,spearman,True
