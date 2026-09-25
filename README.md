@@ -1,5 +1,9 @@
 # Emotion regulation development analysis reproduction
 
+This repository reorganizes the paper's original analysis code by figure to
+reproduce the complete analysis workflow. The original analysis code is
+preserved in `original_code/` for reference.
+
 ## Environment
 
 ```bash
